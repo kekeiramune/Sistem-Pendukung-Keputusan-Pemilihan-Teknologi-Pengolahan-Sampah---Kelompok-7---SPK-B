@@ -17,31 +17,52 @@ If you are developing a production application, we recommend using TypeScript wi
 
 # How to Run This Code? 🚀
 
-Follow these step by step and instructions so you can run this code on your own device (p.s make sure you already have node.js installed, if not, you may visit this link : https://nodejs.org/en/download) :
+Follow the steps below to run this project on your local machine.
+⚠️ Make sure Node.js is already installed
+If not, download it here: https://nodejs.org/en/download
 
-## 1. make sure you're in the right project folder
+## 1. Navigate to the project directory
+
+Make sure you are inside the correct project folder:
 
 `cd spk_app`
 
-## 2. run npm install in your terminal
+## 2. Install main dependencies
+
+Run the following command to install all dependencies listed in package.json:
 
 `npm install'
 
-## 3. install addition dependency (if there's a missing dependency)
+## 3. Install additional dependency (if missing)
 
-click the package.json and check if there's something like this :
+Open package.json and check whether recharts exists:
 
 `"recharts": "^3.6.0"`
 
-if not, you may install the dependency first :
+If it is not listed, install it manually:
 
 `npm install recharts`
 
-## 4. optional (but needed)
+## 4. (Optional but required if using Tailwind CSS)
 
-`npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p`
+Install Tailwind CSS and its dependencies:
 
-## 5. you're all set, you may deploy the project!
+`npm install -D tailwindcss postcss autoprefixer`
+
+Then initialize Tailwind config:
+
+`npx tailwindcss init -p`
+
+Make sure your main CSS file includes:
+
+`@tailwind base;
+@tailwind components;
+@tailwind utilities;`
+
+## 5. Run the development server
+
+Start the project locally:
 
 `npm run dev`
+
+Open the URL shown in the terminal (usually http://localhost:5173).
