@@ -1,3 +1,15 @@
+# Introduction
+
+Repository ini dibuat untuk memenuhi tugas Ujian Akhir Semester Mata Kuliah Sistem Pendukung Keputusan (B)
+
+## Dosen Pengampu :
+Dyah Sulistyowati R, S.Kom.,M.Kom
+
+## Dibuat oleh :
+1. Deswita Prisdei Bago - 4523210035
+2. Devica Putri Hadiyanti - 4523210036
+3. Kezia Annabel Sinaga - 4523210134
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
